@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 www.Qwill@outlook.com, 123, LIC=3UUSB-2IGIU-E0WN4-FI58P-KRD7L-51XCE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  F:\wwwQw\ELEpcApp\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:        TARMSTM.DLL   
+ 
+<h2>Project:</h2>
+E:\hdu\我的毕业设计\软件代码设计\ending_code\4.17\USER\USART.uvprojx
+Project File Date:  05/18/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(95): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                        write_more(8, Card_ID, 6);
+main.c(112): warning:  #223-D: function "strlen" declared implicitly
+                        if (strlen(CARD_ID) == 0) { // 卡号录入不成功
+main.c(44): warning:  #177-D: variable "i" was declared but never referenced
+        int i;
+main.c(47): warning:  #177-D: variable "Card_KEY" was declared but never referenced
+        uint8_t Card_KEY[6] = {0xff,0xff,0xff,0xff,0xff,0xff};    //{0x11,0x11,0x11,0x11,0x11,0x11};   //密码
+main.c(48): warning:  #177-D: variable "Card_Data" was declared but never referenced
+        uint8_t Card_Data[16];
+main.c(143): warning:  #177-D: variable "Card_KEY" was declared but never referenced
+        uint8_t Card_KEY[6] = {0xff,0xff,0xff,0xff,0xff,0xff};    //{0x11,0x11,0x11,0x11,0x11,0x11};   //密码
+main.c(144): warning:  #177-D: variable "Card_Data" was declared but never referenced
+        uint8_t Card_Data[16];
+main.c(245): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if(key>=0 && key<=9){
+main.c(329): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if(key>=0 && key<=9){
+main.c(441): warning:  #177-D: variable "Card_KEY" was declared but never referenced
+        uint8_t Card_KEY[6] = {0xff,0xff,0xff,0xff,0xff,0xff};    //{0x11,0x11,0x11,0x11,0x11,0x11};   //密码
+main.c(442): warning:  #177-D: variable "Card_Data" was declared but never referenced
+        uint8_t Card_Data[16];
+main.c(664): warning:  #223-D: function "strlen" declared implicitly
+                        if (strlen(AT24C02_BUFF) == 0) { // 没有设置密码，前往设置密码, 新用户登录
+main.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=16934 RO-data=2534 RW-data=2096 ZI-data=1632  
+FromELF: creating hex file...
+"..\OBJ\USART.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\hdu\我的毕业设计\软件代码设计\ending_code\4.17\USER\RTE
+  F:\wwwQw\ELEpcApp\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
